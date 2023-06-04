@@ -1,0 +1,84 @@
+.slider-btn {
+  display: none;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .grid-1 {
+    display: flex;
+    flex-direction: row;
+
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .container-card .card {
+    /* width: 10%; */
+    width: 20%;
+  }
+  .container-card .card a {
+    width: 80%;
+    height: 30%;
+
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  footer .container div {
+    justify-content: space-around;
+    font-size: small;
+  }
+
+  footer .container #footer-footer {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+  }
+
+  footer .container div div {
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 481px) {
+  .grid-1 {
+    display: flex;
+    flex-direction: row;
+
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .container-card .card {
+    /* width: 10%; */
+    width: 20%;
+  }
+  .container-card .card a {
+    width: 80%;
+    height: 30%;
+
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  footer .container div {
+    justify-content: space-around;
+    font-size: small;
+  }
+
+  footer .container #footer-footer {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+  }
+
+  footer .container div div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 0px;
+  }
+}
